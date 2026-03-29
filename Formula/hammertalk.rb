@@ -6,6 +6,7 @@ class Hammertalk < Formula
   license "MIT"
   head "https://github.com/hiasinho/hammertalk.git", branch: "master"
 
+  depends_on "cmake" => :build
   depends_on "rust" => :build
 
   on_linux do
